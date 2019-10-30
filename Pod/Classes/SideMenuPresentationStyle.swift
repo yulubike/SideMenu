@@ -28,7 +28,7 @@ public class SideMenuPresentationStyle {
     /// The offset of the shadow applied to the top most view.
     public var onTopShadowOffset: CGSize = .zero
     /// The ending alpha of the presenting view when the menu is fully displayed.
-    public var presentingEndAlpha: CGFloat = 1
+    public var presentingEndAlpha: CGFloat = 0.2
     /// The amount the presenting view is translated along the x-axis. Zero is stationary, negative values are off-screen, positive values are on screen.
     public var presentingTranslateFactor: CGFloat = 0
     /// The amount the presenting view is scaled. Less than one shrinks the view, larger than one grows the view.
